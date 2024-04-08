@@ -1,5 +1,3 @@
-# Название сценария
+# Настройка NodeLocal DNS Cache в кластере Yandex Managed Service for Kubernetes®
 
-Описание сценария и инструкция по его применению.
-
-Для практических руководств обязательна ссылка на документацию.
+Вы можете снизить нагрузку по DNS-запросам в кластере [Managed Service for Kubernetes®](https://yandex.cloud/ru/docs/managed-kubernetes) с помощью [NodeLocal DNS Cache](https://github.com/kubernetes/enhancements/blob/master/keps/sig-network/1024-nodelocal-cache-dns/README.md). Подготовка инфраструктуры для Managed Service for Kubernetes® через Terraform описана в [практическом руководстве](https://cloud.yandex.ru/ru/docs/managed-kubernetes/tutorials/node-local-dns), необходимый для настройки конфигурационный файл [k8s-node-local-dns.tf](k8s-node-local-dns.tf) расположен в этом репозитории.
