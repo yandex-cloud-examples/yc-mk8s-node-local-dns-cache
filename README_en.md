@@ -1,0 +1,3 @@
+# Configuring NodeLocal DNS Cache in a Yandex Managed Service for Kubernetes® cluster
+
+To reduce the number of DNS requests to a [Managed Service for Kubernetes®](https://yandex.cloud/docs/managed-kubernetes) cluster, use [NodeLocal DNS Cache](https://github.com/kubernetes/enhancements/blob/master/keps/sig-network/1024-nodelocal-cache-dns/README.md). See this [tutorial](https://yandex.cloud/docs/managed-kubernetes/tutorials/node-local-dns) to learn how to prepare the infrastructure for Managed Service for Kubernetes® using Terraform. This repository contains the configuration file you will need: [k8s-node-local-dns.tf](k8s-node-local-dns.tf).
